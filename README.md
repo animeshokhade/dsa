@@ -1,1 +1,1 @@
-# Sapere aude!
+Sapere Aude 💡
