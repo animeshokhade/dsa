@@ -1,1 +1,1 @@
-Ad meliora
+Sapere aude!
