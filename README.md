@@ -1,1 +1,1 @@
-Sapere Aude 💡
+# Sapere Aude 💡
