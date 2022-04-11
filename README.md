@@ -2,7 +2,7 @@
 
   To the skill that scales
   
-  to the epitome of elegance;
+  the epitome of elegance;
   
   To the craft that craves
   
