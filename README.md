@@ -46,4 +46,18 @@
   
   **Sapere Aude 💡 Sapere Aude 💡**
   
+  <br>
+  
+  *To the products that pray for*
+  
+  *the servility of society;*
+  
+  *To the community that codes*
+  
+  *the ether in ethereum, I say,*
+  
+  **Sapere Aude 💡 Sapere Aude 💡**
+  
+  
+  
   
