@@ -33,3 +33,17 @@
   *the serendipity in stacks, I say,*
   
   **Sapere Aude 💡 Sapere Aude 💡**
+  
+  <br>
+  
+  *To the bugs that bite*
+  
+  *the dismay of debuggers;*
+  
+  *To the errors that eclipse*
+  
+  *the disdain of developers, I say,*
+  
+  **Sapere Aude 💡 Sapere Aude 💡**
+  
+  
