@@ -40,9 +40,9 @@
   
   *the dismay of debuggers;*
   
-  *To the errors that eclipse*
+  *To the ints that long*
   
-  *the disdain of developers, I say,*
+  *the embrace of engineers, I say,*
   
   **Sapere Aude 💡 Sapere Aude 💡**
   
