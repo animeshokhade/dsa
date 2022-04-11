@@ -21,3 +21,15 @@
   *the conundrums of clients, I say,*
   
   **Sapere Aude 💡 Sapere Aude 💡**
+  
+  <br>
+  
+  *To the mire that murks*
+  
+  *the nuggets of nuance;*
+  
+  *To the flags that furl*
+  
+  *the serendipity in stacks, I say,*
+  
+  **Sapere Aude 💡 Sapere Aude 💡**
