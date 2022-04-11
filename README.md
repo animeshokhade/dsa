@@ -54,7 +54,7 @@
   
   *To the community that codes*
   
-  *the ether in ethereum, I say,*
+  *the ether of ethereum, I say,*
   
   **Sapere Aude 💡 Sapere Aude 💡**
   
