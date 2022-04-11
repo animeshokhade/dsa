@@ -18,6 +18,6 @@
   
   *To the cat that catches*
   
-  *the conundrums of clients, I say*
+  *the conundrums of clients, I say,*
   
   **Sapere Aude 💡 Sapere Aude 💡**
