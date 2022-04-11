@@ -1,23 +1,23 @@
 # Sapere Aude 💡
 
-  To the skill that scales
+  *To the skill that scales*
   
-  the epitome of elegance;
+  *the epitome of elegance;*
   
-  To the craft that craves
+  *To the craft that craves*
   
-  the artistry of an artist, I say,
+  *the artistry of an artist, I say,*
   
   **Sapere Aude 💡 Sapere Aude 💡**
   
   <br>
   
-  To the mark that matches
+  *To the mark that matches*
   
-  the target of triumph;
+  *the target of triumph;*
   
-  To the cat that catches
+  *To the cat that catches*
   
-  the conundrums of clients, I say
+  *the conundrums of clients, I say*
   
   **Sapere Aude 💡 Sapere Aude 💡**
