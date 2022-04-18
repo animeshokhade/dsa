@@ -9,7 +9,7 @@ class Solution:
             if arr[index] % 2 == 0:
                 even += 1
             
-            elif arr[index] %2 == 1:
+            elif arr[index] % 2 == 1:
                 odd += 1
                 
         print(odd, even)
