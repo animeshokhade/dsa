@@ -12,7 +12,7 @@ class Solution:
 
         return sorted(lookup) 
         
-        # TC: O(NlogN); SC: O(N)
+        # TC: O(N); SC: O(N)
 
 # Optimised Approach - 01
 
