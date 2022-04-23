@@ -22,7 +22,7 @@ var majorityElement = function(nums) {
             ans.push(k);
             } 
     } 
-    return ans
+    return ans;
 };
 
 // TC: O(N); SC: O(N)
@@ -78,7 +78,7 @@ var majorityElement = function(nums) {
         ans.push(secondMajority);
     }
     
-    return ans
+    return ans;
 };
 
 // TC: O(N); SC: O(1)
