@@ -20,7 +20,7 @@ class Solution:
         
         # TC: O(N); SC: O(N)
         
-# Optimised Approach
+# Optimised Approach --> Boyer Moore Voting Algorithm
 
 class Solution(object):
     def majorityElement(self, nums):
