@@ -27,7 +27,7 @@ var majorityElement = function(nums) {
 
 // TC: O(N); SC: O(N)
 
-// Optimised Approach
+// Optimised Approach --> Boyer Moore Voting Algorithm
 
 /**
  * @param {number[]} nums
