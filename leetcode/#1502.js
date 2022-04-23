@@ -1,4 +1,4 @@
-// question --> https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/submissions/
+// question --> https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/
 
 /**
  * @param {number[]} arr
