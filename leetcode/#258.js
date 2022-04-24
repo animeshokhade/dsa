@@ -23,6 +23,8 @@ var addDigits = function(num) {
 
 // TC: O(logN - base10); SC: O(logN - base10)
 
+// Optimised Approach
+
 /**
  * @param {number} num
  * @return {number}
