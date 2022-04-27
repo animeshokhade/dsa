@@ -19,9 +19,9 @@ class Solution:
         
         return sorted(ans)
         
-        # TC: O(2^N); SC: O(N)
+        # TC: O(logN(base2) * 2^N); SC: O(N)
         
-# Alternative Approach
+# Cascading Approach
 
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
@@ -33,7 +33,7 @@ class Solution:
             
         return sorted(ans)
         
-        # TC: O(2^N); SC: O(N) 
+        # TC: O(N * 2^N); SC: O(N * 2^N) 
         
 # Recursion Approach
 
@@ -59,7 +59,7 @@ class Solution:
         ans.sort()
         return ans
         
-        # TC: O(2^N); SC: O(N)
+        # TC: O(N * 2^N); SC: O(N)
         
 # end 
 
