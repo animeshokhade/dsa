@@ -13,6 +13,6 @@ class Solution:
 
 
 '''
-TC: O(N + logN) => O(N)
+TC: O(N + NlogN) => O(NlogN)
 SC: O(1)
 '''
