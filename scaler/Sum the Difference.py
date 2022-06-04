@@ -16,9 +16,9 @@ class Solution:
         return max_diff % mod
 
         '''
-	    TC: O(N^2)
-	    SC: O(1)
-	    '''
+	TC: O(N^2)
+	SC: O(1)
+        '''
 
 
 # optimised
