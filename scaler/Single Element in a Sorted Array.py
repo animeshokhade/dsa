@@ -18,7 +18,7 @@ class Solution:
         if A[-1] != A[-2]:
             return A[-1]
 
-            # binary search
+        # binary search
         while low <= high:
             mid = (low + high) // 2
             if A[mid] != A[mid + 1] and A[mid] != A[mid - 1]:
