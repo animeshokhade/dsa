@@ -10,9 +10,9 @@ class Solution:
         if high == 0:
             return A[0]
 
-        # the two conditions below are necessary because, the
+        # the two conditions below are necessary because,
         # the algorithm based on pattern of indices will only
-        # work if the element occuring only once is in the middle.
+        # work if the element occuring only once is not at the edge.
         if A[0] != A[1]:
             return A[0]
         if A[-1] != A[-2]:
