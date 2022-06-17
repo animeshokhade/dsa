@@ -19,5 +19,28 @@ class Solution:
             return 0
         return 1
 
-# alternative approach
+# clean
+
+import collections
+
+
+class Solution:
+    # @param A : string
+    # @return an integer
+    def solve(self, A):
+        freq = collections.Counter(A)  # hashing
+        n = len(A)
+        cnt = 0
+        for char in freq:
+            # even length arrays
+            if n % 2 == 0 and freq[char] % 2 != 0:
+                return 0
+
+            # odd length arrays
+            elif n % 2 == 1 and freq[char] % 2 == 1:
+                cnt += 1
+                if cnt > 1: return 0
+        return 1
+
+        # TC: O(N); SC: O(N)
 
