@@ -65,3 +65,50 @@ class Solution:
                 ans += min(mapA[key], mapB[key]) * [key]
 
         return ans
+
+# clean
+
+from collections import Counter
+class Solution:
+    # @param A : list of integers
+    # @param B : list of integers
+    # @return a list of integers
+    def solve(self, A, B):
+        a = Counter(A)
+        b = Counter(B)
+
+        ans = []
+        for key in a:
+            if b[key]:
+                val = min(a[key], b[key])
+                while val:
+                    val -= 1
+                    ans.append(key)
+
+        return ans
+
+        # TC: O(N + M); SC: O(N + M)
+
+# clean and optimised
+
+from collections import Counter
+
+
+class Solution:
+    # @param A : list of integers
+    # @param B : list of integers
+    # @return a list of integers
+    def solve(self, A, B):
+        a = Counter(A)
+        cmn = []
+
+        for b in B:
+            if b in a:
+                cmn.append(b)
+                a[b] -= 1
+                if a[b] == 0:
+                    del a[b]
+
+        return cmn
+
+        # TC: O(N); SC: O(M)
