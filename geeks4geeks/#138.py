@@ -33,4 +33,4 @@ class Solution:
                 p3 += 1
         return cmn
 
-    # TC: O(|A| + |B| + |C|); SC: O(|A| + |B| + |C|)
+    # TC: O(A + B + C); SC: O(A + B + C)
