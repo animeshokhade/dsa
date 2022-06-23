@@ -3,7 +3,7 @@
 class Solution:
 
 	
-	def search(self,arr, n, k): 
+    def search(self,arr, n, k): 
     	# code here
     	if k not in arr: return -1
     	return arr.index(k) + 1
