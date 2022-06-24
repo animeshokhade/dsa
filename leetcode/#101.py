@@ -20,4 +20,4 @@ class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         return self.helper(root.left, root.right)
     
-    # TC: O(N); SC: O(1)
+    # TC: O(N); SC: O(Height of the Tree)
