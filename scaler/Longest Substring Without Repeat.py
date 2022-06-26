@@ -1,7 +1,7 @@
 class Solution:
-	# @param A : string
-	# @return an integer
-	def lengthOfLongestSubstring(self, A):
+    # @param A : string
+    # @return an integer
+    def lengthOfLongestSubstring(self, A):
         lkp = set()
         l, r = 0, 0
         n = len(A)
