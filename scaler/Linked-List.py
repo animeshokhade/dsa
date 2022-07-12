@@ -143,3 +143,81 @@ def delete_node(position):
 def print_ll():
     # Output each element followed by a space
     print(ll.__repr__())
+
+# elegant
+
+class Node:
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+
+
+class LinkedList:
+    def __init__(self, head, size):
+        self.head = head
+        self.size = size
+
+
+ll = LinkedList(None, 0)
+
+
+def insert_node(position, value):
+    # @param position, an integer
+    # @param value, an integer
+    node = Node(value)
+
+    if position == 1:
+        node.next = ll.head
+        ll.head = node
+
+    elif position <= ll.size + 1:
+        tail = ll.head
+        i = 1
+        while i < position - 1:
+            tail = tail.next
+            i += 1
+        node.next = tail.next
+        tail.next = node
+
+    else:
+        return
+
+    ll.size += 1
+
+
+def delete_node(position):
+    # @param position, integer
+    # @return an integer
+    if ll.head and position == 1:
+        ll.head = ll.head.next
+
+    elif position <= ll.size:
+        tail = ll.head
+        i = 1
+        while i < position - 1:
+            tail = tail.next
+            i += 1
+        tail.next = tail.next.next
+
+    else:
+        return
+
+    ll.size -= 1
+
+
+def print_ll():
+    # Output each element followed by a space
+    cur = ll.head
+    if not cur:
+        return
+
+    n = ll.size
+    while cur.next:
+        print(cur.val, end=' ')
+        cur = cur.next
+
+    # printing the last statement
+    print(cur.val, end='')
+    print()
+
+# TC: O(N); SC: O(1)
