@@ -66,3 +66,7 @@ class MinStack:
             return -1
 
         return self.minstack[-1]
+
+    # TC: O(Q); SC: O(N + X)
+    # X -> minStack size
+    # Q -> Querries 
