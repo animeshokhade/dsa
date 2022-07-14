@@ -10,7 +10,7 @@ class Solution:
             else:
                 arr[i] = -1
 
-    arr[-1] = -1
-    return arr
+        arr[-1] = -1
+        return arr
 
     # TC: O(N); SC: O(1)
