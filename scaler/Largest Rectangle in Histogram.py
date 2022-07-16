@@ -122,7 +122,6 @@ class Solution:
     def largestRectangleArea(self, A):
         A.append(0)
         stack = [-1]
-        n = len(A)
         rec = 0
         temp = 0
         area = 0
@@ -130,11 +129,15 @@ class Solution:
         for ind, ele in enumerate(A):
             while stack and A[stack[-1]] >= ele:
                 temp = stack.pop()
-                if stack:
-                    area = A[temp] * (ind - stack[-1] - 1)
+                area = A[temp] * (ind if not stack else ind - stack[-1] - 1)
                 rec = max(rec, area)
             stack.append(ind)
 
         return rec
 
         # TC: O(N); SC: O(N)
+
+'''
+Appending 0 helps to traverse to nth index so that area
+for all the rectangles with NSR as n can be calculated. 
+'''
