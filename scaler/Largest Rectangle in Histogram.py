@@ -113,3 +113,28 @@ NSL -> 0 and NSR -> n.
 
 We maintain a max_area variable and return it. 
 '''
+
+# clean
+
+class Solution:
+    # @param A : list of integers
+    # @return an integer
+    def largestRectangleArea(self, A):
+        A.append(0)
+        stack = [-1]
+        n = len(A)
+        rec = 0
+        temp = 0
+        area = 0
+
+        for ind, ele in enumerate(A):
+            while stack and A[stack[-1]] >= ele:
+                temp = stack.pop()
+                if stack:
+                    area = A[temp] * (ind - stack[-1] - 1)
+                rec = max(rec, area)
+            stack.append(ind)
+
+        return rec
+
+        # TC: O(N); SC: O(N)
