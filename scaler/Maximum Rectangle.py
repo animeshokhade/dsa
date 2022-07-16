@@ -53,7 +53,6 @@ class Solution:
     def area(self, A):
         A.append(0)
         stack = [-1]
-        n = len(A)
         rec = 0
         cur = 0
         area = 0
@@ -61,8 +60,7 @@ class Solution:
         for ind, ele in enumerate(A):
             while stack and A[stack[-1]] >= ele:
                 cur = stack.pop()
-                if stack:
-                    area = A[cur] * (ind - stack[-1] - 1)
+                area = A[cur] * (ind if not stack else ind - stack[-1] - 1)
                 rec = max(rec, area)
             stack.append(ind)
 
@@ -86,4 +84,4 @@ class Solution:
 
         return ret
 
-        # TC: O(rows * cols); SC: O(cols) 
+        # TC: O(rows * cols); SC: O(cols)
